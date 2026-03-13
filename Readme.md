@@ -21,8 +21,7 @@ Simply, run ```main.ipynb```to compare team/department performance on available 
 
 More metrics can be added easily by following the factory design pattern in ```Metric.py``` and custom logic can be implemented as desired.
 
-For this example, we did not perform any transofrmation on the normalised metrics because qqplot show that all of the metric roughly follow the normal distrbution. 
- 
+In this example, we did not perform any transformations on the normalised metrics because the QQ plot indicates that all metrics approximately follow a normal distribution. For your custom dataset, a transformation may be necessary. Be sure to change ```_, eligble_col``` to ```team_nominal_roll, eligble_col``` in your code. 
 ### Explaination
 
 The arrows indicate how extreme the outliers are in terms of their Z-scores.
@@ -36,6 +35,5 @@ The arrows indicate how extreme the outliers are in terms of their Z-scores.
 
 ## Acknowledgments
 
-Dataset is provided by 
-* [Original Python code](https://www.kaggle.com/code/jirkaborovec/cctv-weapon-train-yolo-detection)
-* [Dataset](https://www.kaggle.com/datasets/simuletic/cctv-weapon-dataset)
+Dataset is provided by [Mexwell](https://www.kaggle.com/datasets/mexwell/employee-performance-and-productivity-data). Click on the hyperlink to be referred to the original source on Kaggle.
+
